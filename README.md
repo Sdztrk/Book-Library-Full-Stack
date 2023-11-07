@@ -10,7 +10,6 @@ This is a simple book library web application that allows users to view, create,
 
 - View the list of books in the library.
 - Add a new book to the library with title, author, and description.
-- Edit an existing book's information.
 - Delete a book from the library.
 
 ## Installation
