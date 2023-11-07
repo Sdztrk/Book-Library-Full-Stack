@@ -1,6 +1,6 @@
 # Book Library Web Application
 
-This is a simple book library web application that allows users to view, create, edit, and delete books in their library. The project is built using a combination of technologies, including Node.js, Express.js, Sequelize (as the ORM), SQL (SQLite and as host localhost), and React.js, Axios for the front-end.
+This is a book library web application that allows users to view, create, edit, and delete books in their library. The project is built using a combination of technologies, including Node.js, Express.js, Sequelize (as the ORM), SQL (SQLite and as host localhost), and React.js, Axios for the front-end.
 
 ## Outcome 
 ![Overview](./overview.png)
