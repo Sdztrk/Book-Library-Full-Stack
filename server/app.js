@@ -3,14 +3,16 @@ const express = require("express")
 const app = express()
 require("colors")
 require("dotenv").config()
-const {connectDB} = require("./db")
+const {connectDB} = require("./mySqlConnection")
+const {connectMySqlDB} = require("./mySqlConnection")
  const bookRouter = require("./routes/book")
 const { errorHandler } = require("./middlewares/errorHandler")
  const cors = require('cors')
 
 //connection to DB
 // sequelize.sync().then(() => console.log(`connected to db`.red.underline))
-connectDB()
+// connectDB()
+connectMySqlDB()
 
 // Parse request 
 app.use(express.json())

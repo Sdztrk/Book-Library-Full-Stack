@@ -1,4 +1,4 @@
-const {sequelize} = require('../db');
+const {sequelize} = require('../mySqlConnection');
 const {DataTypes} = require('sequelize')
 
 const Book = sequelize.define('books', {
